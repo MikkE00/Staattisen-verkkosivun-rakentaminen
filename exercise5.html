@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<!--            margin: 30px 0;-->
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 
     <meta charset="UTF-8">
@@ -29,8 +29,9 @@
             justify-content: space-around;
         }
         main{
-            flex-direction: row;
-            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
         }
 
     </style>
@@ -42,18 +43,42 @@
         <p style='font-size: 16px;margin-top: 10px;'>Your go-to place for interesting content.</p>
     </header>
 
-<main>
+
    
     <section id="main-content">
-        <nav id="main-nav" class="navE4">
+  <div class="middle-container">
+      <nav id="nav">
         <ul>
-            <li><a href="#" class="nav-link">Home</a></li>
-            <li><a href="#" class="nav-link">About</a></li>
-            <li><a href="#" class="nav-link">Services</a></li>
-            <li><a href="#" class="nav-link">Contact</a></li>
+          <h3 href="">SIDE</h3>
+          <h3 href="">SIDE</h3>
+          <h3 href="">SIDE</h3>
+          <h3 href="">SIDE</h3>
+          <h3 href="">SIDE</h3>
+          <h3 href="">SIDE</h3>
+          
         </ul>
-        </nav>
-        
+      </nav>
+      <main id="main">
+        <article>
+          <h2>Pet Facts</h2>
+          <p>94% of pet owners say their animal pal makes them smile more than once a day.</p>
+            <p>The American Veterinary Dental Society states that 80% of Dogs and 70% of cats show signs of oral disease by age 3.</p>
+        </article>
+        <article>
+          <h2>Dog Facts</h2>
+         <p>Greyhounds are the world’s fastest dogs with the ability to reach up to 45 mph.</p>
+         <p>Dogs have 28 baby teeth and 42 permanent teeth.</p>
+         <p>Every dog has a unique nose print with no two alike.</p>
+         <p>Dogs sweat through their foot pads to help keep them cool.  They also keep cool by panting.</p>
+        </article>
+        <article>
+          <h2>Cat Facts</h2>
+            <p>Cats have 32 muscles in each ear.</p>
+            <p>Cats spend approximately 30% of their waking hours grooming themselves.</p>
+            <p>Cats have over one hundred vocal sounds, while dogs have about ten!</p>
+            <p>Cats have no collarbone, which is one reason they are so flexible.</p>
+            <p>Source:  https://animalmedical.org/fun-facts</p>
+        </article>
         <article class="content-article">
             <h2 style="color: #333;font-size: 24px; margin-bottom: 10px;">Article Title 1</h2>
             <p style="color: #666;font-size: 16px;line-height: 1.5;">This is the content of the first article. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ut excepturi sit minima unde, enim reprehenderit perspiciatis sapiente numquam libero. Fugiat, mollitia delectus dolore inventore debitis minima cumque voluptatibus illo.</p>
@@ -82,6 +107,7 @@
     <footer id="main-footer">
         <p>&copy; 2023 My Website. All rights reserved.</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 </body>
 </html>

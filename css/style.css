@@ -50,18 +50,10 @@ margin: 0;
     padding: 20px;
   }
 
-h2{
-
-}
-
 img{
 max-width: 200;
 max-height: 300;
 border: 5px solid #555;
-
-}
-
-section{
 
 }
 
@@ -78,7 +70,7 @@ text-align: center;
 }
 
 .h1spec{
-    background-color: sienna;
+    background-color: rgb(197, 113, 75);
     color: antiquewhite;
 }
 .navE4 a{
@@ -90,3 +82,7 @@ text-align: center;
     background-color: #ddd;
     color: rgb(238, 134, 65);
     }
+    
+.middle-container{
+        display: flex;     
+}
